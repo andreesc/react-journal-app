@@ -25,6 +25,14 @@
   }
 }
 
+.btn-danger {
+  background: red;
+  transition: background .3s ease;
+  &:hover {
+    background: darken(red, 10);
+  }
+}
+
 .btn-block {
   width: 100%;
 }
